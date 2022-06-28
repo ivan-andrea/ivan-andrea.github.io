@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital@1&family=Poppins:wght@100&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="scripts/countdown.js"></script>
+    <title>Ivan & Andrea</title>
+</head>
+  
+<body>
+<div class="container">
+    <div class="section1">
+        <br/>
+        <img src="images/line_top.png"><br/>
+	    <h2>BODA</h2><br/>
+        <h1>Ivan & Andrea</h1><br/>
+	    <img src="images/line_bottom.png"><br/>
+    </div>
+    <div class="section2">
+	    <h2>08 Julio 2023</h2><br/>
+        <div class="four_items_row">
+		  <div class="item_row"><br/><span id="days"></span><br/><p>DIAS</p><br/></div>
+		  <div class="item_row"><br/><span id="hours"></span><br/><p>HORAS</p><br/></div>
+		  <div class="item_row"><br/><span id="minutes"></span><br/><p>MINS</p><br/></div>
+		  <div class="item_row"><br/><span id="seconds"></span><br/><p>SECS</p><br/></div>
+		</div>
+        <br/>
+		<a href="https://goo.gl/maps/8PgzC11DxNiSAKPC7">La Pardina Del Solano</a>
+        <br/>
+		<p>Arres (Huesca)</p>
+        <br/>
+    </div>
+    <div class="section_2_3">
+        <div class="transition1"><div class="img"><img src="images/green-flower-360.png"></div></div><div class="transition2"></div>
+    </div>
+    <div class="section3">
+        <h2>Asistencia</h2><br/><br/>
+        <span>Responder antes del 31 Dic 2022</span><br/><br/>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSeIcNXQD59o9vfNdgqAntSBoEa4akVLWARrXZh5MGcxmwGOUw/formResponse" class="form">
+            <div class="form_element">
+                <span>*Nombre(s)</span><br/>
+                <input type="text" name="entry.676977413" required placeholder="" class="input_text" /><br/>
+            </div>
+            <div class="form_element">
+                <span>*Asistencia</span><br/>
+                <div class="inputs">
+                    <div class="input">
+                        <input type="radio" name="entry.160097979" id="Si" value="Si" required /><span>  SI</span>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="entry.160097979" id="No" value="No" /><span>  NO</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form_element">
+                <br/>
+                <span>¿Algo que debamos saber?</span><br/>
+                <textarea name="entry.1561335692" placeholder="Menu especial, alergias..."></textarea><br/><br/>
+            </div>
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+    <div class="section4">
+        <h2>Dudas</h2><br/><br/><br/><br/>
+        <h3 onclick=show_hide('q1')>¿A que hora empieza?</h3>
+        <span id="q1" style="display:none">A las 12:00 hay que estar alli</span>
+        <h3 onclick=show_hide('q2')>¿Como llegar?</h3>
+        <span id="q2" style="display:none">¡Que no te la lie el Maps! Por autovia hasta Jaca y luego hacia La Pardina Del Solano pasando por Puente la Reina de Jaca</span>
+        <h3 onclick=show_hide('q3')>¿Que debo llevar puesto?</h3>
+        <span id="q3" style="display:none">¡Lo que quieras! No tenemos codigo de vestimenta, solo queremos que disfruteis</span>
+        <h3 onclick=show_hide('q4')>¿Puedo hacer fotos?</h3>
+        <span id="q4" style="display:none">Estamos pidiendo que no se hagan fotos. Tenemos fotografos profesionales que se encargaran de capturar todos los momentos que despues compartiremos ¡Vosotros disfrutad!</span>
+        <h3 onclick=show_hide('q5')>¿Necesitas alojamiento?</h3>
+        <span id="q5" style="display:none">Contactanos y te ayudaremos a buscar por la zona</span>
+        <h3 onclick=show_hide('q6')>¿Como os puedo contactar?</h3>
+        <span id="q6" style="display:none">Por whatsapp, por telefono o por correo </span>
+        <br/>
+    </div>
+</div>
+</body>
+</html>
