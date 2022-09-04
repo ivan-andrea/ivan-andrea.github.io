@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="scripts/countdown.js"></script>
+    <title>Iván & Andrea</title>
+</head>
+  
+<body>
+<div class="container">
+    <div class="section1">
+        <div class="logo">
+            <img src="images/circle.png">
+            <div class="names">
+                <h1>Iván</h1>
+                <span> & </span>
+                <h1>Andrea</h1>
+            </div>
+        </div>
+        <div class="icon"><i class="fa-solid fa-chevron-down fa-beat fa-xl"></i></div>
+    </div>
+    <div class="section2">
+        <img src="images/texture_top_grey.png">
+        <div class="date"><h2><div class="alexbrush">08</div><div class="pads_center">Julio</div><div class="alexbrush">2023</div></h2></div>
+        <div class="four_items_row">
+          <div class="item_row"><br/><span id="days"></span><br/><p>DÍAS</p><br/></div>
+          <div class="item_row"><br/><span id="hours"></span><br/><p>HORAS</p><br/></div>
+          <div class="item_row"><br/><span id="minutes"></span><br/><p>MINS</p><br/></div>
+          <div class="item_row"><br/><span id="seconds"></span><br/><p>SEGS</p><br/></div>
+        </div>
+        <a href="https://goo.gl/maps/8PgzC11DxNiSAKPC7">La Pardina del Solano</a>
+        <p>Arres (Huesca)</p>
+        <img src="images/texture_bottom_grey.png">
+    </div>
+    <div class="section3">
+        <h2>Asistencia</h2>
+        <span>Confirmar antes del 01 de junio de 2023</span>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSeIcNXQD59o9vfNdgqAntSBoEa4akVLWARrXZh5MGcxmwGOUw/formResponse" class="form">
+            <div class="form_element">
+                <span>*Nombre(s)</span>
+                <input type="text" name="entry.676977413" required placeholder="" class="input_text" />
+            </div>
+            <div class="form_element">
+                <span>*Asistencia</span>
+                <div class="inputs">
+                    <div class="input">
+                        <input type="radio" name="entry.160097979" id="Si" value="Si" required /><span>  Si</span>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="entry.160097979" id="No" value="No" /><span>  No</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form_element">
+                <span>¿Algo que debamos saber?</span>
+                <textarea name="entry.1561335692" placeholder="Menu especial, alergias..."></textarea>
+            </div>
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+    <div class="section4">
+        <img src="images/texture_top_grey.png">
+        <h2>Música</h2>
+        <span>¿Que canciones no pueden faltar en la fiesta?</span>
+        <span>¡Ponlas en la lista!</span>
+        <a href="https://www.youtube.com/playlist?list=PLXWjTQGewtUpK7rzaicSNbU-xu35XLVHV&jct=JJ2Z4JIka05CGZ4QXn11UpcfYVBc6g"><i class="fa-brands fa-youtube fa-xl"></i></a>
+        <img src="images/texture_bottom_grey.png">
+    </div>
+    <div class="section5">
+        <h2>Fotos y Videos</h2>
+        <span>¡Descargate la app y subelas!</span>
+        <div class="image_link"><a href="https://wedshoots.com"><img src="images/logo_wedshoots.png"/></a></div>
+        <span>El codigo de nuestro album es:</span>
+        <span>ES7a99018c</span>
+    </div>
+    <div class="section6">
+        <img src="images/texture_top_grey.png">
+        <h2>Dudas</h2>
+        <div class="text_questions">
+        <h3 onclick=show_hide('q1')>¿A que hora empieza?</h3>
+        <span id="q1" style="display:none">A las 12:30 hay que estar alli</span>
+        <h3 onclick=show_hide('q2')>¿Como llegar?</h3>
+        <span id="q2" style="display:none">¡Que no te la lie el Maps! Por autovia hasta Jaca y luego hacia La Pardina del Solano pasando por Puente la Reina de Jaca</span>
+        </div>
+        <img src="images/texture_bottom_grey.png">
+    </div>
+</div>
+</body>
+</html>
