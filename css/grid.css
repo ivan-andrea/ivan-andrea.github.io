@@ -308,16 +308,23 @@
  }
  
  .container .section3 .form .form_element .input_text{
+    resize: none;
     width:295px;
-    font-size:22px;
-    font-weight:normal;
+    height:30px;
     border:none;
     border-bottom: 1px solid #eaeaea;
     padding-left:5px;
+	padding-top:10px;
     font-family: 'MrsEaves', sans-serif;
+    font-size:22px;
+    font-weight:normal;
     color:#a3a3a3;
+    border-radius: 7px;
     display:flex;
     justify-content:center;    
+    align-items: center;  
+    margin-top:15px;
+    margin-bottom:15px;	    
  }
  
  .container .section3 .form .form_element .inputs{
