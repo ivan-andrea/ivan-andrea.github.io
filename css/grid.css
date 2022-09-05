@@ -301,6 +301,7 @@
 	padding-top:5px;
     font-family: 'MrsEaves', sans-serif;
     font-size:20px;
+	line-height:24px;
     font-weight:normal;
     color:#a3a3a3;
     border-radius: 7px; 
@@ -341,10 +342,6 @@
  .container .section3 .form > button{
     width:100px;
     height: 30px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;    
-    align-items: center;    
     margin:auto;
     border-radius: 7px;
     border: 1px solid #70A076;
