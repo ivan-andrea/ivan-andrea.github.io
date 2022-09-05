@@ -352,6 +352,8 @@
     font-weight:normal;
     color:#8a8a8a;
     margin-bottom:20px;
+	display: flex;
+	justify-content: center;
  }
 
 /***************/
