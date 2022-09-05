@@ -352,9 +352,8 @@
     font-weight:normal;
     color:#8a8a8a;
     margin-bottom:20px;
-	display: flex !important;
-	justify-content: center !important;
-	align-items: center !important;
+    position: static !important;
+    transform: unset !important;
  }
 
 /***************/
