@@ -339,20 +339,22 @@
     background-color: #cacaca;
  }
  
- .container .section3 .form > button{
+ .container .section3 .form .btn {
     width:100px;
     height: 30px;
-	line-height:28px;
-    margin:auto;
     border-radius: 7px;
     border: 1px solid #70A076;
     background-color:#f0f0f0;
+    color:#8a8a8a;
+    margin:auto;
+	margin-bottom:20px;
+ }
+
+ .container .section3 .form .btn > span{
     font-family: 'MrsEaves', sans-serif;
     font-size:22px;
     font-weight:normal;
-    color:#8a8a8a;
-    margin-bottom:20px;
- }
+}
 
 /***************/
 /*  SECTION 4  */
