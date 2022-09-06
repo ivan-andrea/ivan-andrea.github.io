@@ -342,18 +342,16 @@
  .container .section3 .form > button{
     width:100px;
     height: 30px;
+	line-height:28px;
     margin:auto;
     border-radius: 7px;
     border: 1px solid #70A076;
     background-color:#f0f0f0;
     font-family: 'MrsEaves', sans-serif;
     font-size:22px;
-	line-height:30px;
     font-weight:normal;
     color:#8a8a8a;
     margin-bottom:20px;
-    position: static !important;
-    transform: unset !important;
  }
 
 /***************/
