@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => { 
   // VARIABLES
-  const DATE_TARGET = new Date('07/08/2023 12:00 PM');
+  const DATE_TARGET = new Date('07/08/2023 12:30 PM');
   // DOM for render
   const SPAN_DAYS = document.querySelector('span#days');
   const SPAN_HOURS = document.querySelector('span#hours');
@@ -36,6 +36,15 @@ function show_hide(id) {
   var x = document.getElementById(id);
   if (x.style.display === "none") {
     x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function show_hide_block(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } else {
     x.style.display = "none";
   }

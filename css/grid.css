@@ -515,6 +515,27 @@
     margin-bottom:10px;
  }
  
+ .container .section6 .text_questions .taxi_phones .phone > span{
+    line-height:30px;
+    font-size:23px;
+    font-weight:normal;
+    color:#a3a3a3;
+    justify-content:center;    
+    align-items: center;    
+    margin-bottom:10px;
+ }
+
+ .container .section6 .text_questions .taxi_phones .phone > a{
+    line-height:30px;
+    font-size:23px;
+    font-weight:normal;
+    color:#a3a3a3;
+    justify-content:center;    
+    align-items: center;    
+    margin-bottom:10px;
+	text-decoration: none;
+ }
+ 
   .container .section6 > img{
     background-color:#ffffff;
     height:100px;
